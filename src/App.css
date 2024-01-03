@@ -1,0 +1,15 @@
+.heroContainer {
+  max-height: 400px;
+  overflow:hidden;
+  position: relative;
+  text-align: center;
+  object-fit: contain;
+}
+
+.heroText {
+  position: absolute;
+  top: 255px;
+  left: 243px;
+  text-align: center;
+}
+
