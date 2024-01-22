@@ -1,7 +1,8 @@
 #Home {
-    padding: 0;
-    margin: 0;
-    align-items: center;
+    min-height: calc(100vh - 88px);
+    /* padding: 0;
+    margin: 0; */
+    align-items: start;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -10,3 +11,12 @@
     color: rgb(247, 203, 203);
 }
 
+#Home h1 {
+    font-size: 56px;
+    text-align: start;
+}
+
+#Home h2 {
+    font-size: 38px;
+    text-align: start;
+}

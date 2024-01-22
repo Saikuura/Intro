@@ -1,0 +1,31 @@
+#Projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin: 56px 0;
+}
+
+.project-card-wrapper {
+    width: 600px;
+}
+
+.project-card-wrapper h3 {
+    
+}
+
+.project-card-wrapper div img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.project-card-content {
+    
+    
+}
+
+.project-card-wrapper div p {
+    background-color: white;
+    min-height: 100px;
+}
