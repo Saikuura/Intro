@@ -1,0 +1,34 @@
+.Bar {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: right;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  /* position: fixed; */
+  top: 0;
+  width: 100vw;
+  padding: 1rem 2rem;
+}
+
+header img {
+  height: 40px;
+  width: 40px;
+}
+
+.TitleBox {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 800;
+  color: rgb(247, 203, 203);
+}

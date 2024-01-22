@@ -1,15 +1,8 @@
-.heroContainer {
-  max-height: 400px;
-  overflow:hidden;
-  position: relative;
-  text-align: center;
-  object-fit: contain;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+  text-shadow: 1px 1px 1px black;
 }
-
-.heroText {
-  position: absolute;
-  top: 255px;
-  left: 243px;
-  text-align: center;
-}
-
