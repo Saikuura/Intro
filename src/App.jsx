@@ -4,6 +4,7 @@ import { Contact } from "./components/Contact";
 import { Home } from "./components/Home";
 import { NavBar } from "./components/Nav";
 import { Projects } from "./components/Projects/Projects";
+import {ScrollToTopButton} from "./components/ScrollToTopButton";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
+      <ScrollToTopButton/>
     </>
   );
 }

@@ -5,17 +5,14 @@
   justify-content: center;
   width: 80%;
   color: rgb(247, 203, 203);
+  min-height: 100vh;
+  padding: 140px 0;
 }
 
 .about-img-container {
   > img {
     width: 15rem;
     height: 15rem;
-    transition: all linear 0.3s;
-  }
-  > img:hover {
-    width: 16rem;
-    height: 16rem;
     transition: all linear 0.3s;
   }
 }
@@ -36,7 +33,7 @@
 .icons img {
   width: auto;
   height: 50px;
-} 
+}
 
 .icons {
   display: flex;
