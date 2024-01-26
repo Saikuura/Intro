@@ -10,6 +10,12 @@ export const Projects = () => {
         src="/pokedex.png"
         href="https://saikuura.github.io/Pokedex/"
       />
+       <ProjectCard
+        title="Product styling"
+        text="Dette var ett gruppe prosjekt, hvor vi skulle style denne reklamen for produktet."
+        src="/product.png"
+        href="https://product-preview-card-component-gruppeoppgave-pi.vercel.app/"
+      />
     </section>
   );
 };

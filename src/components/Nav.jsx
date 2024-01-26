@@ -3,7 +3,7 @@ import "./Nav.css";
 export const NavBar = () => {
   return (
     <header>
-        <div className="TitleBox"><img src="/computer.png" alt="" /></div>
+        <div className="TitleBox"></div>
       <nav className="Bar">
         <a href="#Home">Home</a>
         <a href="#About">About</a>

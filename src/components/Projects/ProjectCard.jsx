@@ -6,7 +6,7 @@ export const ProjectCard = ({ title, text, src, href }) => {
         <img src={src} alt="" />
         <p>{text}</p>
         <button>
-        <a href={href}>check out the live site</a>
+        <a href={href}>Link til siden!</a>
         </button>
       </div>
     </div>

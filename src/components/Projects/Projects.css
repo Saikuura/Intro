@@ -8,7 +8,7 @@
 
 .project-card-wrapper {
     width: 600px;
-    border: 2px solid white;
+    /* border: 2px solid rgb(247, 203, 203); */
     padding: 4px;
 }
 
@@ -20,10 +20,11 @@
     height: 300px;
     width: 100%;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 .project-card-content {
-    background-color: black;
+    
 
     
 }
@@ -31,4 +32,9 @@
 .project-card-wrapper div p {
     min-height: 100px;
     color: rgb(247, 203, 203);
+}
+
+.project-card-wrapper h1 {
+    color: rgb(247, 203, 203);
+    
 }
